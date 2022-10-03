@@ -1,0 +1,9 @@
+.destaques {
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    grid-template-rows: 50% 50%;
+    height: 624px;
+    grid-gap: .4rem;
+    padding-right: 15px;
+    padding-bottom: 40px;
+}

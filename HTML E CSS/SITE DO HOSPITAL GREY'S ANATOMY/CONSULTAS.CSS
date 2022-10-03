@@ -1,0 +1,195 @@
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+header {
+	background: #20B2AA;
+	width: 100%;
+	position: relative;
+	height: 377px;
+
+}
+
+#img-seattle-logo,h2 {
+	background: url("Seattle-cabeçalho-png.png") repeat-x;
+	height: 254px;
+	margin-left: 0px;
+	position: relative;
+	right: 40px;
+	width: 1348px;
+	top: 123px;
+}
+
+.cabeçalho {
+	height: 377px;
+	padding: 0 0 0 40px;	
+}
+ 
+.logo-principal {
+	width: 565px; 
+	position: absolute;
+	top: 36px;
+}
+
+.logo-principal:hover {
+	opacity: 0.8;
+	transition: 550ms;
+}
+
+nav {
+	position: absolute;
+	top: 77px;
+	right: 150px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 50px 0 20px;
+	width: auto;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+main {
+	background: linear-gradient(#20B2AA,#DCDCDC,#ffffff);
+	position: absolute;
+	width: 1349px;
+	height: 2123px;
+}
+
+#input {
+	height: 2123px;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 15px;
+	font-size: 28px;
+	margin-top: 15px;
+}
+
+.informaçoes-1, .informaçoes-2 {
+	position: relative;
+	left: 459px;
+}
+
+.informaçoes-1 {
+	margin-top: 120px;
+}
+
+.nome-1, .email-1, .CPF-1, .telefone-1 {
+	width: 430px;
+	height: 33px;
+	font-size: 18px;
+	position: relative;
+	left: 459px;
+}
+
+.especializaçoes{
+	position: relative;
+	top: 83px;
+}
+
+.especializaçoes-2 {
+	position: relative;
+	left: 396px;
+	width: 545px;
+	height: 35px;
+	display: block;
+	bottom: 23px;
+}
+
+#text-1, #contato-1 {
+	position: relative;
+	left: 458px;
+	height: 32px;
+	margin-bottom: 15px;
+}
+
+#text-1 {
+	width: 416px;
+}
+
+.contato {
+	position: relative;
+	top: 130px;
+}
+
+#contato-1 {
+ 	width: 136px;
+ 	left: 460px;
+ }
+
+.contato-2 {
+	left: 459px;
+}
+
+.text-2 {
+	width: 18px;
+	height: 18px;
+}
+
+legend {
+	position: relative;
+	left: 440px;
+}
+
+.horarios-1 {
+	width: 172px;
+	position: relative;
+	height: 45px;
+	left: 460px;
+	margin-top: 24px;
+	margin-bottom: 36px;
+	top: 197px;
+}
+
+.horarios {
+	position: relative;
+	left: 459px;
+	top: 180px;
+}
+
+.informaçoes-3 {
+	position: relative;
+	width: 544px;
+	height: 63px;
+	left: 407px;
+	top: 215px;
+}
+
+.enviar-1 {
+	position: relative;
+	width: 346px;
+	height: 63px;
+	top: 248px;
+	left: 506px;
+	font-weight: bold;
+	font-size: 30px;
+	background: #DCDCDC;
+}
+
+.enviar-1:hover {
+	text-transform: uppercase;
+	background: #FF0000;
+}
+
+footer {
+	background: url(rodape1.png);
+	position: absolute;
+	width: 1349px;
+	height: 304px;
+	top: 2500px;
+}

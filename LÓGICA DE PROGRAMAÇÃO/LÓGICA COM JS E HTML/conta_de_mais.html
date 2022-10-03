@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+
+<script>
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function calcula(numero1, numero2, numero3) {
+
+        return calculando = numero1 + numero2 + numero3;
+    }
+
+    var valorInformado1 = parseInt(prompt("Informe o primeiro valor á ser somado"));
+    var valorInformado2 = parseInt(prompt("Informe o segundo valor á ser somado"));
+    var valorInformado3 = parseInt(prompt("Informe o terceiro valor á ser somado"));
+
+    calcula(valorInformado1, valorInformado2, valorInformado3);
+
+    mostra(valorInformado1 + " + " + valorInformado2 + " + " + valorInformado3 + " é igual a : " + calculando);
+
+</script>

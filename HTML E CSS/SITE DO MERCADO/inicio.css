@@ -1,0 +1,248 @@
+
+body {
+
+    margin: 0px 0px 0px 0px;
+    height: 625px;
+}
+
+header {
+
+    width: 1920px;
+    height: 280px;
+}
+
+#cabeçalho {
+
+    position: absolute;
+    right: 0px;
+    left: 280px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 280px;
+
+    width: 1640px;
+}
+
+h1 {
+
+    font-size: 149px;
+    width: 353px;
+    position: absolute;
+    left: 643px;
+    margin-top: 40px;
+}
+
+h2 {
+
+    left: 877px;
+    width: 154px;
+    font-size: 40px;
+    position: absolute;
+    top: 176px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#nav {
+
+    background-color: #08218a;
+    right: 779px;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    width: 280px;
+    height: 920px;
+}
+
+ul {
+
+    height: 464px;
+    position: absolute;
+    padding-left: 0px;
+    width: 249px;
+    margin-left: 20px;
+    margin-top: 150px;
+    list-style: none;
+}
+
+a {
+
+    position: absolute;
+}
+
+nav, a, li {
+    
+    position: absolute;
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.enlatados {
+
+    width: 159px;
+}
+
+.limpeza {
+
+    width: 121px;
+    top: 26px;
+    margin-top: 40px;
+}
+
+.frutas {
+
+    width: 121px;
+    top: 93px;
+    margin-top: 40px;
+}
+
+.refrigerados {
+
+    top: 156px;
+    width: 201px;
+    margin-top: 40px;
+}
+
+.padaria {
+
+    width: 121px;
+    top: 220px;
+    margin-top: 40px;
+}
+
+main {
+
+    top: 402px;
+    left: 429px;
+    position: absolute;
+    width: 1371px;
+    height: 345px;
+}
+
+p {
+
+    position: absolute;
+    top: 262px;
+    font-size: 20px;
+}
+
+p1 {
+
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+}
+
+.arroz-img {
+
+    width: 257px;
+    height: 258px;
+}
+
+.arroz {
+
+    left: 33px;
+
+}
+
+.arroz-p {
+
+    left: 91px;
+}
+
+.feijao-img {
+
+    width: 257px;
+    height: 258px;
+}
+
+.feijão {
+
+    left: 305px;
+}
+
+.feijão-p {
+
+    left: 357px;
+    width: 80px;
+    height: 25px;
+}
+
+.oleo-img {
+
+    width: 257px;
+    height: 258px;
+}
+
+.óleo {
+
+    left: 549px;
+    right: 18px;
+    height: 25px;
+    width: 208px;
+}
+
+.óleo-p {
+
+    left: 614px;
+    height: 28px;
+    width: 90px;
+}
+
+.açucar-img {
+
+    position: absolute;
+    width: 257px;
+    height: 258px;
+}
+
+.açucar {
+
+    left: 799px;
+    width: 229px;
+}
+
+.açucar-p {
+
+    left: 875px;
+    width: 70px;
+}
+
+.cafe-img {
+
+    position: absolute;
+    width: 257px;
+    height: 258px;
+    left: 1068px;
+    bottom: 83px;
+}
+
+.cafe {
+
+    width: 132px;
+    left: 1133px;
+}
+
+.cafe-p {
+
+    left: 1161px;
+    width: 82px;
+}
+
+footer {
+
+    background-image: url(frutas_e_verduras2.jpg);
+    height: 280px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 880px;
+    width: 1920px;
+}
+

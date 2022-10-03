@@ -1,0 +1,142 @@
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+header {
+	background: #20B2AA;
+	width: 100%;
+	position: relative;
+	height: 377px;
+
+}
+
+#img-seattle-logo,h2 {
+	background: url("Seattle-cabeçalho-png.png") repeat-x;
+	height: 254px;
+	margin-left: 0px;
+	position: relative;
+	right: 40px;
+	width: 1348px;
+	top: 123px;
+}
+
+.cabeçalho {
+	height: 377px;
+	padding: 0 0 0 40px;	
+}
+ 
+.logo-principal {
+	width: 565px; 
+	position: absolute;
+	top: 36px;
+}
+
+.logo-principal:hover {
+	opacity: 0.8;
+	transition: 550ms;
+}
+
+nav {
+	position: absolute;
+	top: 77px;
+	right: 150px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 50px 0 20px;
+	width: auto;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+main {
+	background: linear-gradient(#20B2AA,#DCDCDC,#ffffff);
+	position: absolute;
+	width: 1349px;
+	height: 4759px;
+}
+
+.dr-1, .dr-2, .dr-3, .dr-4, .dr-5, .dr-6, .dr-7, .dr-8, .dr-9 {
+	width: 260px;
+	height: 340px;
+	margin-left: 200px;
+}
+
+.dr-1 {
+	margin-top: 118px;
+}
+
+.titulo-1, .titulo-2, .titulo-3, .titulo-4, .titulo-5, .titulo-6, .titulo-7, .titulo-8, .titulo-9 {
+	font-size: 30px;
+	position: relative; 
+	left: 490px;
+	width: 232px;
+	height: 36px;
+	margin-bottom: 40px;
+}
+
+.text-1, .text-2, .text-3, .text-4, .text-5, .text-6, .text-7, .text-8, .text-9 {
+	font-size: 27px;
+	position: relative;
+	height: 113px;
+	width: 458px; 
+	left: 490px;
+	line-height: 35.2px;
+}
+
+.text-1, .titulo-1 {
+
+	bottom: 290px;
+}
+
+.text-2, .titulo-2 {
+	bottom: 280px;
+}
+
+.text-3, .titulo-3 {
+	bottom: 270px;
+}
+
+.text-4, .titulo-4 {
+	bottom: 270px;
+}										
+
+.text-5, .titulo-5 {
+	bottom: 270px;
+}
+
+.text-6, .titulo-6 {
+	bottom: 270px;
+}
+
+.text-7, .titulo-7 {
+	bottom: 270px;
+}
+
+.text-8, .titulo-8 {
+	bottom: 270px;
+}
+
+.text-9, .titulo-9 {
+	bottom: 270px;
+}
+
+footer {
+	background: url(rodape1.png);
+	position: absolute;
+	width: 1349px;
+	height: 304px;
+	top: 5135px;
+}

@@ -1,0 +1,53 @@
+
+
+.logo {
+    grid-area: logo;
+    background: url("./imagens_todas/pobreflix_logo.jpg") center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.menu_de_navegacao {
+    display: flex;
+    grid-template-areas:
+        "idioma"
+        "seta-idioma"
+        "menu-nav"
+        "usuario" ;
+    grid-template-columns: 40% 10% 20% 20%;
+    grid-template-rows: 100%;
+    align-items: center;
+    background-color: rgb(230 0 0);
+}
+
+.idioma {
+    grid-area: idioma;
+}
+
+.seta_idioma {
+    grid-area: seta-idioma;
+    color: white;
+}
+
+.seta_idioma:hover {
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.menu {
+    grid-area: menu-nav;
+    color: white;
+    text-decoration: none;
+}
+
+.menu:hover {
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.usuario {
+    grid-area: usuario;
+}
+
+.usuario:hover {
+    background-color: rgba(255, 255, 255, 0.733);
+}
+

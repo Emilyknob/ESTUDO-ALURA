@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function calculaMultipliccao(valor1, valor2, valor3) {
+
+        return multiplicacao = (valor1 * valor2) * valor3;
+    }
+
+    var valor1 = prompt("Informe o primeiro valor a ser multiplicado");
+    var valor2 = prompt("Informe o segundo valor a se miltiplicado");
+    var valor3 = prompt("Informe o terceiro valor a ser multiplicado")
+
+    calculaMultipliccao(valor1, valor2, valor3);
+
+    mostra(valor1 + " vezes " + valor2 + " vezes " + valor3 + " é : " + multiplicacao);
+
+</script>

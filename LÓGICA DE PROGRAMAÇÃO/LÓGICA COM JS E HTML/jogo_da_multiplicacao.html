@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+    
+    function pulaLinha() {
+        document.write("<br><br>");
+    }
+
+    var multiplica = parseInt(prompt("Digite um número de 1 a 9, esse valor será multiplicado"));
+    var acertos = 1;
+    var numero = 2;
+    var resultado = multiplica * numero;
+
+    while(acertos <= 6) {
+        var multiplica2 = parseFloat(prompt("O resultado da conta anterior será muiltiplicado por " + numero));
+        if(multiplica2 == resultado) {
+            alert("Parabéns você passou da " + acertos + " fase! Vamos dificultar mais um pouco.");          
+        } else {
+            alert("Não foi dessa vez tente novamente.");
+            break;
+        }
+        acertos++;
+        numero++;
+        resultado = resultado * numero;
+    }
+
+    if(numero >= 7) {
+        mostra("<h1>Parabéns! Você conseguiu passar por todas as fases.</h1>");
+        mostra("Pelo visto temos alguem muito bom em multiplicação aqui.");  
+    } else {
+        mostra("<h1>Não foi dessa vez tente novamente...</h1>");
+    }
+
+</script>

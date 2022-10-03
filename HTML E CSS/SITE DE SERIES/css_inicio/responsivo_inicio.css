@@ -1,0 +1,291 @@
+@media screen and (min-width: 0px){
+    .cabeçalho {
+        padding: 10px 15px;
+    }
+
+    .menu__lista___item {
+        font-size: 22px;
+        padding: 10px 5px;
+    }
+
+    .input {
+        height: 0px;
+        width: 0px;
+        border: 0;
+        padding: 0;
+        font-size: 0;
+    }
+
+    .botao {
+        height: 0px;
+        width: 0px;
+        border: 0;
+        padding: 0;
+        font-size: 0;
+    }
+    
+    .conteudo {
+        padding: 0 15px;
+    }
+
+
+    .destaques {
+        grid-template-columns: 50% 30% 20%;
+    }
+        
+    .destaques__principal {
+        background: url("./imagens_inicio/greys_anatomy.jpg") center / cover no-repeat;
+        grid-column: 1 / 4;
+        grid-row: 1 / 1;
+    }
+
+    .destaques__secundario:nth-child(2) {
+        background: url("./imagens_inicio/lucifer.jpg") center / cover no-repeat;
+        grid-column: 1 / 4;
+        grid-row: 2 / 2;
+    }
+
+    .destaques__secundario:nth-child(3) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .destaques__secundario:nth-child(4) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .destaques__secundario:nth-child(5) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .populares__card {
+        width: 100%;
+    }
+
+    .populares__itens{
+        flex-direction: column;
+    }
+
+    .card__conteudo___titulo {
+        font-size: 35px;
+        width: 260px;
+    }
+
+    .card__conteudo___descricao {
+        font-size: 21px;
+    }
+
+}
+
+@media screen and (min-width: 720px){
+
+    .menu__lista___item {
+        font-size: 29px;
+        padding: 10px 5px;
+    }
+
+    .populares__card {
+        width: 50%;
+    }
+
+    .populares__itens{
+        flex-direction: row;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+
+    .cabeçalho {
+        padding: 10px 30px;
+    }
+
+    .menu__lista___item {
+        font-size: 29px;
+        padding: 10px 15px;
+    }
+
+    .input {
+        font-size: 14px;
+        margin-left: 80px;
+        height: 20px;
+        width: 192px;
+        padding: 1px 2px;
+        border-width: 2px;
+        border-style: inset;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        border-image: initial;
+    }
+
+    .botao {
+        width: 50px;
+        font-size: 13px;
+        height: 26px;
+        padding: 1px 6px;
+        border-width: 2px;
+        border-style: outset;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        border-image: initial;
+    }
+
+    .conteudo {
+        padding: 0 30px;
+    }
+
+
+    .destaques {
+        grid-template-columns: 60% 20% 20%;
+    }
+       
+    .destaques__principal {
+        background: url("./imagens_inicio/greys_anatomy.jpg") center / cover no-repeat;
+        grid-column: 1 / 2;
+        grid-row: 1 / 1;
+    }
+
+    .destaques__secundario:nth-child(2) {
+        background: url("./imagens_inicio/lucifer.jpg") center / cover no-repeat;
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
+    }
+
+    .destaques__secundario:nth-child(3) {
+        display: grid;
+        background: url("./imagens_inicio/stranger_things.jpg") center / cover no-repeat;
+        grid-column: 2 / 4;
+        grid-row: 1 / 3;
+    }
+
+    .card__conteudo___titulo {
+        font-size: 35px;
+    }
+
+    .card__conteudo___descricao {
+        font-size: 21px;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px){
+    .cabeçalho {
+        padding: 10px 48px;
+    }
+
+    .menu__lista___item {
+        font-size: 29px;
+        padding: 10px 22px;
+        height: 45px;
+    }
+
+    .input {
+        margin-left: 80px;
+    }
+
+    .conteudo {
+        padding: 0 48px;
+    }
+
+    .destaques {
+        grid-template-columns: 50% 30% 20%;
+    }
+
+    
+    .destaques__secundario:nth-child(3) {
+        display: grid;
+        background: url("./imagens_inicio/stranger_things.jpg") center / cover no-repeat;
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+
+    .destaques__secundario:nth-child(4) {
+        display: grid;
+        background: url("./imagens_inicio/vis_a_vis.jpg") center / cover no-repeat;
+        grid-column: 3 / 4;
+        grid-row: 1 / 1;
+    }
+
+    .destaques__secundario:nth-child(5) {
+        display: grid;
+        background: url("./imagens_inicio/The_100_.jpg") center / cover no-repeat;
+        grid-column: 3 / 4;
+        grid-row: 2 / 2;
+    }
+
+    .populares__card {
+        width: calc(25% - 1rem);
+    }
+
+    .card__conteudo___titulo {
+        width: 290px;
+        font-size: 34px;
+    }
+
+    .card__conteudo___descricao {
+        font-size: 21px;
+    }
+
+}
+
+@media screen and (min-width: 1600px){
+    .cabeçalho {
+        padding: 10px 78px;
+    }
+
+    .menu__lista___item {
+        height: 45px;
+    }
+
+    .conteudo {
+        padding: 0 78px;
+    }
+        
+    .destaques__principal {
+        background: url("./imagens_inicio/greys_anatomy.jpg") center / cover no-repeat;
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+
+    .destaques__secundario:nth-child(2) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .destaques__secundario:nth-child(4) {
+        display: grid;
+        background: url("./imagens_inicio/vis_a_vis.jpg") center / cover no-repeat;
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+    }
+
+    .destaques__secundario:nth-child(5) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .populares__card {
+        width: calc(25% - 1rem);
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 6px;
+    }
+
+    .card__conteudo___titulo {
+        font-size: 40px;
+        width: 315px;
+    }
+
+    .card__conteudo___descricao {
+        font-size: 25px;
+    }
+
+}

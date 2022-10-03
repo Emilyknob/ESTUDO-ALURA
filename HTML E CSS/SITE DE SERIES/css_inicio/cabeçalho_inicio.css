@@ -1,0 +1,28 @@
+
+.menu__lista___item {
+    text-decoration: none;
+    color:  darkgray;
+}
+
+.menu__lista___item:hover {
+    color: rgb(71, 71, 71);
+}
+
+.menu__lista {
+    margin: 0px 0px 0px 0px;
+    padding-left: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.input {
+    background: black;
+    color: darkgray;
+}
+
+.botao {
+    background: black;
+    color: darkgray;
+}

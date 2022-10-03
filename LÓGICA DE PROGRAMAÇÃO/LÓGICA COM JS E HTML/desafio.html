@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+
+function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+}
+
+function pulaLinha() {
+
+    document.write("<br>");
+}
+
+var nomeDefault = "EMILY"; 
+var senhaDefault = "123456789";
+
+var nomeUsuarioInsert = prompt("Insira seu nome: ");
+var senhaUsuarioInsert = prompt("Insira sua senha: ");
+
+nomeUsuarioInsert = nomeUsuarioInsert.toUpperCase();
+
+if(nomeUsuarioInsert == nomeDefault && senhaUsuarioInsert == senhaDefault) {
+    mostra("Seja bem vindo");
+} else {
+    mostra("Acesso Negado");
+}
+
+</script>

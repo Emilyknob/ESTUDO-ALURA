@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "bellotatext";
+    src: url(./fonte_todas/BellotaText-Regular.ttf);
+}
+
+.series {
+    font-family: "bellotatext";
+    display: flex;
+    grid-template-areas: 
+    "navegacao"
+    "todas";
+    grid-template-columns: 25% 75%;
+    grid-auto-rows: 100%;
+    margin: 0px;
+    height: 100%;
+}
+
+.naveg {
+    grid-area: navegacao;
+    width: 25%;
+}
+
+.series__todas {
+    width: 100%;
+    height: 100%;
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background: rgb(29, 29, 29);
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo {
+    grid-area: conteudo;
+    height: 100%;
+    background-color: rgb(29, 29, 29);
+}
+
+.rodape {
+    background-color: black;
+    grid-area: rodape;
+    width: 100%;
+    height: 100%;
+}
+
+.copy {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: calc(50% - 60px);
+    margin-top: 30px;
+    width: 120px;
+}

@@ -1,0 +1,41 @@
+<meta charset="UTF-8"> 
+
+<p>Seja bem vindo ao jogo Adivinha!</p>
+<p>O objetivo do jogo é adivinhar qual número eu estou pensando!</p>
+
+<input> Digite um numero até 10 é </input>
+<button>compare com o número pensado</button>
+
+<script>
+
+    var button = document.querySelector("button");
+
+    button.onclick = verifica;
+
+    function verifica() {
+
+        var input = parseInt(document.querySelector("input"));
+    
+        var button = document.querySelector("button");
+
+        var tentativas = 1;
+
+        while(tentativas <= 1) {
+
+            var numeroPensado = Math.round(Math.random() * 10)
+
+            button.onclick = verifica;
+
+            if (numeroPensado == input) {
+
+                document.write("Parabéns você acertou o número que eu pensei foi: " + numeroPensado);
+            } else {
+
+                document.write("Não foi dessa vez :( O número que eu pensei foi: " + numeroPensado);
+            }
+
+            tentativas++;
+        }
+    }
+
+</script>

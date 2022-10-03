@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+
+<input>
+<button>Coloque o valor a ser multiplicado</button>
+
+<script>
+
+    var input = document.querySelector("input")
+
+    function tabuada() {
+
+        for(var cont1 = 1; cont1 <= 1; cont1++) {
+
+            for(var cont2 = 1; cont2 <= 50; cont2++) {
+
+                var result = input.value * cont2;
+                document.write(input.value + " x " + cont2 + " : " + result + "<br>");
+            }
+        }
+    }
+
+    var button = document.querySelector("button");
+    button.onclick = tabuada;
+
+</script>

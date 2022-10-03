@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function calcula(valor1, valor2) {
+
+        return calc = valor1 * valor2;
+    }
+
+    var valor1 = prompt("Informe o primeiro valor a ser multiplicado ");
+    var valor2 = prompt("Informe o segundo valolr a ser multiplicado ");
+
+    var calc = calcula(valor1, valor2);
+    
+    mostra(valor1 + " X " + valor2 + " = " + calc);
+
+</script>

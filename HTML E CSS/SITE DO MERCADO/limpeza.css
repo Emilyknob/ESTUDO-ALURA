@@ -1,0 +1,156 @@
+body {
+
+    margin: 0px 0px 0px 0px;
+    height: 625px;
+}
+
+header {
+
+    width: 1349px;
+    height: 293px;
+}
+
+#nav {
+    background-image: ;
+    position: absolute;
+    right: 779px;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    width: 280px;
+    height: 625px;
+}
+
+ul {
+
+    list-style: none;
+}
+
+#cabeçalho {
+
+    position: absolute;
+    right: 0px;
+    left: 280px;
+    top: 0px;
+    margin: 0px 0px 0px 0px;
+    height: 280px;
+    width: 1069px;
+}
+
+main {
+
+    position: absolute;
+    top: 280px;
+    left: 454px;
+    width: 1371px;
+    height: 345px;
+}
+
+p {
+
+    position: absolute;
+    top: 262px;
+    font-size: 20px;
+}
+
+p1 {
+
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+}
+
+.detergente-img {
+
+    width: 257px;
+    height: 258px;
+}
+
+.detergente {
+
+    left: 33px;
+
+}
+
+.detergente-p {
+
+    left: 91px;
+}
+
+.candida-img {
+
+    width: 257px;
+    height: 258px;
+}
+
+.candida {
+
+    left: 305px;
+}
+
+.candida-p {
+
+    left: 357px;
+    width: 80px;
+    height: 25px;
+}
+
+.desinfetante-img {
+
+    width: 257px;
+    height: 258px;
+}
+
+.desinfetante {
+
+    left: 533px;
+    right: 18px;
+    height: 25px;
+    width: 248px;
+}
+
+.desinfetante-p {
+
+    left: 614px;
+    height: 28px;
+    width: 90px;
+}
+
+.sabão-img {
+
+    position: absolute;
+    width: 257px;
+    height: 258px;
+}
+
+.sabão {
+
+    left: 799px;
+    width: 233px;
+}
+
+.sabão-p {
+
+    left: 875px;
+    width: 70px;
+}
+
+.amaciante-img {
+
+    position: absolute;
+    width: 257px;
+    height: 258px;
+    left: 1054px;
+}
+
+.amaciante {
+
+    left: 1098px;
+    width: 175px;
+}
+
+.amaciante-p {
+
+    left: 1142px;
+    width: 82px;
+}

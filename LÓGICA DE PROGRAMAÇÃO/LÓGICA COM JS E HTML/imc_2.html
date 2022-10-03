@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function mostra(frase) {
+        
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function calculaImc(altura, peso) {
+
+        return imc = peso - (altura * altura);
+    }
+
+    mostra("O meu imc calculado é : " + calculaImc(1.77, 75));
+
+</script>

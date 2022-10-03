@@ -1,0 +1,40 @@
+.populares {
+    display: flex;
+}
+
+.populares__itens {
+    display: flex;
+    grid-template-areas: 
+        "card"
+        "titulo";
+    grid-template-columns: 100%;
+    grid-template-rows: 160px auto;
+}
+
+.populares__itens:first-child {
+    margin-top: 66px;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.populares__card {
+    grid-area: card;
+}
+
+.populares__card:nth-child(4) {
+    padding-right: 0px;
+}
+
+.populares__conteudo {
+    grid-area: titulo;
+    color: white;
+}
+
+
+.populares__titulo {
+    color: white;
+    border-bottom: 1px solid white;
+    margin: 0px 0px 20px 0px;
+}
